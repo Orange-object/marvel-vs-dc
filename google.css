@@ -6,7 +6,9 @@ body {background-color:#6495ed;}
 
 }
 
-
+li {
+    float: left;
+}
 
         a{color:#3383ff}
 
