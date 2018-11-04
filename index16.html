@@ -3,36 +3,43 @@
                                 <link href="giiigle.css" rel="stylesheet" type="text/css">
 	<title>work</title>
 <style>
-p.ex1 {
-    max-width: 100px;
-	margin-left: 125px;
-}
-	
 .tooltip {
     position: relative;
     display: inline-block;
+    border-bottom: none;
 }
+
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 908px;
-	height: 480px;
-    background-color: black;
+    width: 390px;
+    background-color: #555;
     color: #fff;
-    
-    border-radius: 0px;
-    padding: 10px 0;
-    
-    /* Position the tooltip */
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
     position: absolute;
     z-index: 1;
-    top: -16px;
-    left: 29px;
+    bottom: -0%;
+    left: 175%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
-}
-	* {
-    box-sizing: border-box;
+    opacity: 1;
 }
 .column {
     float: left;
