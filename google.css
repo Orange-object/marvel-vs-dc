@@ -146,7 +146,7 @@ ll {
     margin: 0;
 
     padding: 0;
-
+width:100%;
     overflow: hidden;
 
     background-color: #A9A9A9;
@@ -172,7 +172,7 @@ ll a {
     text-align: center;
 
     padding: 25%;
-  width:100%;
+
 	
     text-decoration: none;
 
