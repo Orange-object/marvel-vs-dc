@@ -105,7 +105,8 @@ li a {
     text-align: center;
 
     padding: 6%;
-
+	width:100%;
+	
     text-decoration: none;
 
 }
